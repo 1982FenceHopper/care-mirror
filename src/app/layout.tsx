@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navbar from "@/components/global/Navbar";
 import { UIToastProvider } from "@/components/ui/toast";
 import { ClientToastProvider } from "@/providers/ClientToastProvider";
@@ -27,6 +28,7 @@ export default function RootLayout({
             </UIToastProvider>
           </ClientToastProvider>
         </NextThemesProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
