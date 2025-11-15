@@ -7,14 +7,14 @@ export default function Hero() {
     <div className="w-full h-full" id="hero">
       <Image
         src={"/hero-background.jpg"}
-        alt=""
+        alt="A fluid, mesh gradient background, with simple black and white liquid motion"
         width={8000}
         height={4500}
         className="absolute top-0 left-0 w-full h-full -z-100 grayscale-100 opacity-50"
       />
       <div className="flex flex-col columns-1 space-y-12 w-full h-full justify-center justify-items-center align-middle">
-        <h1 className="font-future mx-auto text-8xl text-gray-900 text-center uppercase tracking-[1.6rem]">
-          You are not alone.
+        <h1 className="font-future mx-auto text-3xl text-gray-900 text-center uppercase tracking-[1.2rem]">
+          The place for finding connections, lifelong connections.
         </h1>
         <h2 className="font-future mx-auto text-2xl tracking-widest text-center">
           A platform for finding new connections
