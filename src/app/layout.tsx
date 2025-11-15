@@ -6,7 +6,9 @@ import { ClientToastProvider } from "@/providers/ClientToastProvider";
 import NextThemesProvider from "@/providers/NextThemesProvider";
 
 export const metadata: Metadata = {
-  title: "Care",
+  title: "CARE - APEX RESEARCH",
+  description:
+    "Tinder-like platform to instead find lifelong connections, business partners, social teammates or just friends",
 };
 
 export default function RootLayout({

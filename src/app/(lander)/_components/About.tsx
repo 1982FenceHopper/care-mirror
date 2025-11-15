@@ -1,15 +1,6 @@
-"use client";
-
-import { Toast } from "@base-ui-components/react";
 import Image from "next/image";
 import Link from "next/link";
-import type React from "react";
-import { useState } from "react";
-import z from "zod";
 import UIButton from "@/components/ui/button";
-import { UIForm, UIFormControl, UIFormLabel } from "@/components/ui/form";
-import UIInput from "@/components/ui/input";
-import { GlobalToastManager } from "@/providers/ClientToastProvider";
 
 export default function About() {
   return (
@@ -34,7 +25,11 @@ export default function About() {
           <br />
           or just a friend to talk to.
         </h2>
-        <h2 className="font-future text-6xl">You will find it here.</h2>
+        <h2 className="font-future text-6xl">
+          You will find it here.
+          <br />
+          Tinder, but without the dating stress nor perfectionism
+        </h2>
       </div>
       <div className="flex flex-col columns-1 space-y-4">
         <h3>
